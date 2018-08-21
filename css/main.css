@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header{
+    display: flex;
+    padding: 0.5em;
+    background-color: darkmagenta;
+    justify-content: space-between;
+    color: yellow;
+}
+header img{
+    width: 100px;
+    height: 90px;
+}
+footer{
+    background-color: darkmagenta;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5em;
+    color: yellowgreen;
+}
+section{
+    flex-grow: 1;
+}
+/*  Design for HERO UNIT section */
+.hero-unit-image{
+    width: 100vw;
+    height: 80vh;
+    position: absolute;
+    /* opacity: 0.75; */
+}
+.hero-unit-container{
+    /* height: 80vh;
+    width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.hero-unit-caption{
+    position: relative;
+    color: darkmagenta;
+    font-size: 4em;
+}
+.hero-unit-mask{
+    height: 80vh;
+    width: 100vw;
+    position: absolute;
+    background-color: whitesmoke;
+    opacity: 0.25;
+}
